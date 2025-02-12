@@ -1,0 +1,78 @@
+.layout{
+    width: 90%;
+    margin-left:auto ;
+    margin-right:auto;
+    display: flex;
+    flex-direction: row;
+}
+.sidebar{
+    width: 25%;
+}
+.main{
+    width: 75%;
+}
+.hero{
+    height: 100vh;
+    background-image: url(../images/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     
+}
+.hero div{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    width: max-content;
+    
+}
+.avatar{
+    height: 200px;
+    width:200px;
+    background-image: url(../images/imgprofile.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 150px;
+   
+    
+
+}
+
+
+
+
+.nav{
+    width: 30%;
+    display: flex;
+    font-size: 12px;
+    line-height: 21.6px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10%;
+    margin-right: 11.5%;
+    margin-left: 11.5%;
+    
+    
+
+}
+
+a:link,a:active,a:visited{
+    text-decoration:none;
+    color:black;
+
+}
+a:hover{
+    text-decoration: underline;
+
+    
+}
+
